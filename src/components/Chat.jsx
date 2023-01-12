@@ -7,7 +7,7 @@ import background from "./../img/new-wallpaper.svg"
 import './../styles/css/blocks/chat.css'
 import Messages from "./Messages";
 
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect('https://online-chat-ugqr.onrender.com')
 
 const Chat = () => {
     const { search } = useLocation()
