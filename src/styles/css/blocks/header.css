@@ -1,0 +1,76 @@
+.Header {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 65px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 3;
+    background-color: #c72b2b;
+}
+
+.Container {
+    width: 100%;
+}
+
+.Header-row {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-logo {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.Logo2 {
+    display: inline;
+}
+
+.Logo-digit {
+    display: inline;
+    font-family: 'Montserrat Alternates';
+}
+
+.Account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Sign-up {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #fff;
+    background-color: #c72b2b00;
+    margin-right: 20px;
+    transition: 0.2s ease;
+}
+
+.Sign-up:hover {
+    opacity: 0.7;
+}
+
+.Sign-in {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #c72b2b;
+    background-color: #fff;
+    padding: 5px 15px;
+    width: 100px;
+    border-radius: 0.8em;
+    transition: 0.2s ease;
+}
+
+.Sign-in:hover {
+    opacity: 0.7;
+}

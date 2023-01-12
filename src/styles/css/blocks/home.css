@@ -1,0 +1,62 @@
+.Home-container {
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.Start {
+    margin-top: 30px;
+    padding: 30px 20px;
+    background-color: #fff;
+    display: flex;
+    /* width: 350px; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: solid 1px #ccc;
+}
+
+.Room-h {
+    /* color: #c72b2b; */
+    color: rgb(123, 123, 123);
+    font-size: 25px;
+    font-weight: 700;
+    /* margin-top: 20px; */
+}
+
+.Room-code {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Nickname {
+    margin-bottom: 5px;
+}
+
+.Text-field__counter {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: end;
+    line-height: 20px;
+    color: #ccc;
+    font-size: 15px;
+}
+
+/* Регистр */
+/* .Nickname:focus {
+    text-transform: uppercase;
+} */
+
+.Start .Btn {
+    font-size: 1em; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    height: 45.5px;
+    width: 300px;
+    border-radius: 20px;
+}
